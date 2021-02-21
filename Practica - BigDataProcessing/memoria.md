@@ -7,7 +7,7 @@ La arquitectura usada para el proyecto era una de tipo lambda, que se describe c
 Para simular la llegada de datos en tiempo real, se levantó un contenedor de docker que fue diseñado por el profesor del curso. Este contenedor fue levantado en una maquina
 virtual en la nube y enviaba datos hacia una instancia de Kafka en la misma máquina. El docker podría haber estado en una maquina diferente o en local y aún así hubiera funcionado.
 
-Kafka recibe lo datos separándolos por tópicos, el ejericio usaba el topico "devices". El job de Streaming se trabajó en spark en local, recibiendo los datos desde el kafka en la 
+Kafka recibe lo datos separándolos por tópicos, el ejercicio usaba el topico "devices". El job de Streaming se trabajó en spark en local, recibiendo los datos desde el kafka en la 
 máquina virtual.
 
 Adicionalmente con el job provisioner en spark, se creó una tabla llena de metadatos y otras tablas a ser llenadas como resultado del ejercicio. Previamente se había levantado una
