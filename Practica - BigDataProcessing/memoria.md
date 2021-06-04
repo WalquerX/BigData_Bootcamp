@@ -22,12 +22,6 @@ postgres de la nube, y además los escribe en un storage en local, que también 
 El job de Batch toma los datos que dejó el job de Streaming, en en este caso en una carpeta en local, y vuelve a enriquecerlos con los datos del posgres, para luego realizar los
 calculos que se le piden. El resultado se sube a postgres y además se graba en una carpeta diferente en local.
 
-## Sobre el Ejercicio
-
-Solo logré responder a la primera pregunta para ambos jobs (la agregación de bytes por antena). Tenía la idea de que hacerlo por usuario y por app en el caso del Job de Streaming
-era solo cuestión de repetir la misma función que generaba los datos cambiando antena, por usuario y por app, pero no logré hacer que el job corra correctamente a partir de ahí.
-
-
 
 
 
